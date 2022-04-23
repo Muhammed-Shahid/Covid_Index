@@ -1,0 +1,37 @@
+
+.row{
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 2px;
+}
+
+.title h1 {
+    font-size:34px; font-weight:500; text-transform:uppercase;
+    margin-bottom: 2rem;
+  }
+
+
+
+.internationalCard{
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+@media only screen and (max-width: 415px) {
+
+  
+    
+     .internationalCard{
+        width: 48% !important;
+        
+    }
+    
+
+   
+}
+
+@media only screen and (min-width : 402 ) and (max-width :835px ) {
+   .topBoxes{
+       flex-shrink: 0;
+       width: 70px;
+   }
+}
+

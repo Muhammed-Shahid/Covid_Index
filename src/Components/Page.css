@@ -1,0 +1,19 @@
+.ContainerDiv{
+   
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .ContainerDiv{
+      padding: 0;
+      
+    }
+
+}
+
